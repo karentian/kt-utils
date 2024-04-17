@@ -35,6 +35,10 @@ if loglinear
     end
 end
 
+% recalculate proportions
+h = nh./nsignal;
+fa = nfa./nnoise;
+
 % adjustment = 0.01; 
 % % adjust for ceiling or floor values 
 % if h==1
