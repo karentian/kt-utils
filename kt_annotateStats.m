@@ -1,7 +1,8 @@
 function txt = kt_annotateStats(x,y,stars)
 % function txt = kt_annotateStats(x,y,stars)
 
-% Draws n.s. and significance stars on figure
+% Draws n.s. and significance stars (or other supplied text) on figure at
+% position x,y
 % Inputs: 
 %   x: x position
 %   y: y position, max(fh.YLim) for top of figure 
